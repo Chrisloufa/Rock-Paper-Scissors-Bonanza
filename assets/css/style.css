@@ -1,0 +1,25 @@
+/* --------- Global style */
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+/* --------- Game layout */
+
+.btn {
+    width: 220px;
+    height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+#user-image {
+    float:left;
+    width: 50%;
+    height: 50%;
+}
+
+#computer-image {
+    float: right;
+}

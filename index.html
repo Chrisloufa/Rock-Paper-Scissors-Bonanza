@@ -4,23 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Rock, Paper, Scissors Bonanza</title>
 </head>
 <body>
-    <h1 class="heading">Rock Paper Scissors Bonanza</h1>
+    <div style="background-image: url('assets/images/tabletop.jpeg');">
+
+    <h1 class="heading">
+        <i class="fas fa-gamepad"> Rock, Paper, Scissors Bonanza</i>
+    </h1>
 
     <div class=games-area>
         <div class=controls-area>
-            <button>
-                <i class="far fa-hand-rock"></i>
+            <button data-type="Rock" class="btn btn--big btn--rock">
+                <i class="far fa-hand-rock">: Rock</i>
             </button>
-            <button>
-                <i class="far fa-hand-paper"></i>
+            <button data-type="Paper" class="btn btn--big btn--paper">
+                <i class="far fa-hand-paper">: Paper</i>
             </button>
-            <button>
-                <i class="far fa-hand-scissors"></i>
+            <button data-type="Scissors" class="btn btn--big btn--scissors">
+                <i class="far fa-hand-scissors">: Scissors</i>
             </button>
         </div>
+
+        <div>
+            <image id="user-image" src="assets/images/user-rock.png"/>
+        </div>
+        <div>
+            <image id="computer-image" src="assets/images/computer-rock.png"/>
+        </div>
+
     </div>
+
+    <div class="scoreboard">
+        <p class="win">Win <span id="win">0</span>
+        </p>
+        <p class="draw">Draw <span id="draw">0</span>
+        </p>
+        <p class="lose">Loss <span id="loss">0</span>
+        </p>
+    </div>
+
+</div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
