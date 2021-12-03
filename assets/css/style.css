@@ -18,8 +18,16 @@ body {
     float:left;
     width: 50%;
     height: 50%;
+    padding-top: 2%;
+    border-radius: 50%;
+    border-color: black;
 }
 
 #computer-image {
     float: right;
+    width: 50%;
+    height: 50%;
+    padding-top: 2%;
+    border-radius: 50%;
+    border-color: black;
 }
