@@ -5,6 +5,14 @@ body {
     text-align: center;
 }
 
+/* --------- Background */
+
+.background-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* --------- Game layout */
 
 .btn {
@@ -30,4 +38,8 @@ body {
     padding-top: 2%;
     border-radius: 50%;
     border-color: black;
+}
+
+.footer {
+    text-align: center;
 }
