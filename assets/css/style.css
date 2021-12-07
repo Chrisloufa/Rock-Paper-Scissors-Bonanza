@@ -3,6 +3,9 @@
 body {
     font-family: 'Playfair Display', serif;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
 }
 
 /* --------- Background */
@@ -11,6 +14,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 /* --------- Game layout */
@@ -39,6 +43,8 @@ body {
     border-radius: 50%;
     border-color: black;
 }
+
+/* --------- Footer */
 
 .footer {
     text-align: center;
