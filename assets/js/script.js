@@ -150,3 +150,12 @@ function displayComputerScissors() {
     document.getElementById("computer-image").src = "assets/images/computer-scissors.png";
 
 }
+
+/**
+ * Gets the current tally of answers from the DOM and increments it by 1
+ */
+
+ const setScore = (newScore) => {
+    SCORE = newScore;
+    document.querySelector(".score h1").innerText = newScore;
+  }
