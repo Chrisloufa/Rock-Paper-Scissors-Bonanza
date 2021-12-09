@@ -1,4 +1,7 @@
 /* --------- Global style */
+html {
+    height: -webkit-fill-available;
+}
 
 body {
     font-family: 'Playfair Display', serif;
