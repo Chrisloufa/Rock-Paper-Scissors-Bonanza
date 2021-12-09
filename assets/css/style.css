@@ -57,4 +57,21 @@ body {
 
 .footer {
     text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding: 1rem;
+}
+
+.you {
+    text-align: left;
+}
+
+.computer {
+    text-align: right;
+}
+
+.rules {
+    font-size: large;
 }

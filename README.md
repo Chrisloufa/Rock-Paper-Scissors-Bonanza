@@ -30,3 +30,25 @@ The site is fresh and easy to navigate with simple but to the point information.
 <p align="center">
   <img src="assets/wireframes/iphone.png" width="500" title="hover text">
 </p>
+
+# Technology
+
+## **Languages**
+
+[HTML5 - Wikipedia](https://en.wikipedia.org/wiki/HTML5)
+
+[CSS - Wikipedia](https://en.wikipedia.org/wiki/CSS)
+
+## Framework
+
+[Google Fonts](https://fonts.google.com/)
+
+[Font Awesome](https://fontawesome.com/)
+
+[Pexels](https://www.pexels.com/)
+
+[GitHub](https://github.com/)
+
+[Gitpod](https://www.gitpod.io/)
+
+[Balsamiq](https://balsamiq.com/)

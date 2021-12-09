@@ -12,9 +12,7 @@
 
     <title>Rock, Paper, Scissors Bonanza</title>
 </head>
-<body>
-    <div style="background-image: url('assets/images/tabletop.jpeg');" class="background-image">
-
+<body background="assets/images/tabletop.jpeg" class="background-image">
     <h1 class="heading">
         <i class="fas fa-gamepad"> Rock, Paper, Scissors Bonanza</i>
     </h1>
@@ -38,25 +36,27 @@
         <div>
             <image id="computer-image" src="assets/images/computer-rock.png"/>
         </div>
-
     </div>
 
     <div class="results">
-        <div>
+        <div class="you">
           You
-          <span class="result-score" data-your-score>0</span>
+          <span class="user-score" data-your-score>0</span>
         </div>
-        <div data-final-column>
+        <div class="computer" data-final-column>
           Computer
-          <span class="result-score" data-computer-score>0</span>
+          <span class="computer-score" data-computer-score>0</span>
         </div>
     
 </div>
 
 <footer class="footer">
-    <div>Rules</div>
+    <div class="rules">Rules</div>
     <div>Rock beats Scissors, Paper beats Rock and Scissors beats Paper</div>
 </footer>
+
+
+    
 
 <script src="assets/js/script.js"></script>
 </body>

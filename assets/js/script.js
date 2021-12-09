@@ -23,7 +23,6 @@ function playGame(userAnswer) {
         alert(`Unknown game type: ${userAnswer}`);
         throw `Unknown game type: ${userAnswer}. Aborting!`;
     }
-
 }
 
 /**
