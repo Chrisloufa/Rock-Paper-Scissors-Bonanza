@@ -96,7 +96,7 @@ body {
 @media screen and (max-width: 950px) {
     .you {
         text-align: left;
-        position: fixed;
+        position: absolute;
         padding-left: 24%;
         padding-top: 30%;
         font-size: small;
