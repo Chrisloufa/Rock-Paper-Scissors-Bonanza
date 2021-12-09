@@ -28,9 +28,9 @@ body {
 
 #user-image {
     float:left;
-    width: 30%;
-    height: 30%;
-    padding-top: 2%;
+    width: 25%;
+    height: 25%;
+    padding-top: 3%;
     padding-left: 15%;
     border-color: black;
 }
@@ -41,11 +41,10 @@ body {
 
 #computer-image {
     float: right;
-    width: 30%;
-    height: 30%;
-    padding-top: 2%;
-    padding-right: 6%;
-    border-radius: 65%;
+    width: 25%;
+    height: 25%;
+    padding-top: 3%;
+    padding-right: 15%;
     border-color: black;
 }
 
@@ -62,14 +61,48 @@ body {
     background-color: white;
 }
 
+.vs {
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    width: 100%;
+    padding-top: 13%;
+}
+
 .you {
     text-align: left;
+    position: fixed;
+    padding-left: 24%;
+    padding-top: 30%;
+    font-size: xx-large;
 }
 
 .computer {
     text-align: right;
+    padding-right: 19%;
+    padding-top: 30%;
+    font-size: xx-large;
 }
 
 .rules {
     font-size: large;
+}
+
+/* --------- Change of screen size */
+
+@media screen and (max-width: 950px) {
+    .you {
+        text-align: left;
+        position: fixed;
+        padding-left: 24%;
+        padding-top: 30%;
+        font-size: small;
+    }
+    
+    .computer {
+        text-align: right;
+        padding-right: 19%;
+        padding-top: 30%;
+        font-size: small;
+    }   
 }
