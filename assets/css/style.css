@@ -28,22 +28,31 @@ body {
 
 #user-image {
     float:left;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     padding-top: 2%;
-    border-radius: 50%;
+    padding-left: 6%;
+    border-radius: 65%;
     border-color: black;
 }
+
+#user-image:hover {
+    transform: scale(1.2);
+  }
 
 #computer-image {
     float: right;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     padding-top: 2%;
-    border-radius: 50%;
+    padding-right: 6%;
+    border-radius: 65%;
     border-color: black;
 }
 
+#computer-image:hover {
+    transform: scale(1.2);
+  }
 /* --------- Footer */
 
 .footer {

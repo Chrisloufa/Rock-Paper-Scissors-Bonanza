@@ -6,12 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
             playGame(userAnswer);
             setTimeout(function () {
                 returnGame(userAnswer);
-            }, 4000);
+            }, 400);
         });
     }
 });
-
-
 
 function playGame(userAnswer) {
 
@@ -58,24 +56,21 @@ function returnGame(userAnswer) {
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nIt"s a draw!`);
             increaseRoundNumber();
-            increaseRoundsDrawn();
-        }, 1000);
+        }, 10);
 
     } else if (randomComputerAnswer === "Rock" && userAnswer === "Paper") {
         displayComputerRock(randomComputerAnswer);
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nYou won!`);
             increaseRoundNumber();
-            increaseRoundsWon();
-        }, 1000);
+        }, 10);
 
     } else if (randomComputerAnswer === "Rock" && userAnswer === "Scissors") {
         displayComputerRock(randomComputerAnswer);
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nYou lost!`);
             increaseRoundNumber();
-            increaseRoundsLost();
-        }, 1000);
+        }, 10);
 
 
     } else if (randomComputerAnswer === "Paper" && userAnswer === "Rock") {
@@ -83,48 +78,42 @@ function returnGame(userAnswer) {
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nYou lost!`);
             increaseRoundNumber();
-            increaseRoundsLost();
-        }, 1000);
+        }, 10);
 
     } else if (randomComputerAnswer === "Paper" && userAnswer === "Paper") {
         displayComputerPaper(randomComputerAnswer);
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nIt"s a draw!`);
             increaseRoundNumber();
-            increaseRoundsDrawn();
-        }, 1000);
+        }, 10);
 
     } else if (randomComputerAnswer === "Paper" && userAnswer === "Scissors") {
         displayComputerPaper(randomComputerAnswer);
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nYou won!`);
             increaseRoundNumber();
-            increaseRoundsWon();
-        }, 1000);
+        }, 10);
 
     } else if (randomComputerAnswer === "Scissors" && userAnswer === "Rock") {
         displayComputerScissors(randomComputerAnswer);
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nYou won!`);
             increaseRoundNumber();
-            increaseRoundsWon();
-        }, 1000);
+        }, 10);
 
     } else if (randomComputerAnswer === "Scissors" && userAnswer === "Paper") {
         displayComputerScissors(randomComputerAnswer);
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nYou lost!`);
             increaseRoundNumber();
-            increaseRoundsLost();
-        }, 1000);
+        }, 10);
 
     } else if (randomComputerAnswer === "Scissors" && userAnswer === "Scissors") {
         displayComputerScissors(randomComputerAnswer);
         setTimeout(function () {
             alert(`You played: ${userAnswer} \nThe computer played: ${randomComputerAnswer} \nIt"s a draw!`);
             increaseRoundNumber();
-            increaseRoundsDrawn();
-        }, 1000);
+        }, 10);
 
     } else {
         alert(`Game error, please try again later.`);
@@ -154,8 +143,3 @@ function displayComputerScissors() {
 /**
  * Gets the current tally of answers from the DOM and increments it by 1
  */
-
- const setScore = (newScore) => {
-    SCORE = newScore;
-    document.querySelector(".score h1").innerText = newScore;
-  }

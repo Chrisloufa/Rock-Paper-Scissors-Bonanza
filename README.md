@@ -23,10 +23,10 @@ The site is fresh and easy to navigate with simple but to the point information.
 
 <p align="center">Ipad</p>
 <p align="center">
-  <img src="assets/wireframes/ipad.png" width="800" title="hover text">
+  <img src="assets/wireframes/ipad.png" width="500" title="hover text">
 </p>
 
 <p align="center">Iphone</p>
 <p align="center">
-  <img src="assets/wireframes/iphone.png" width="800" title="hover text">
+  <img src="assets/wireframes/iphone.png" width="500" title="hover text">
 </p>
