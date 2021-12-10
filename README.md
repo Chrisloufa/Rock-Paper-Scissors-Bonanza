@@ -100,6 +100,15 @@ The website is clear and fresh and gives the user an obvious focus on what the s
 
 [Balsamiq](https://balsamiq.com/)
 
+# Testing
+
+## Code validation
+
+**HTML**
+
+<p align="center">
+<img src="assets/readmecontent/htmltest.png" width="900" height="500">
+
 # Credits
 
 ## Content
