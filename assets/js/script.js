@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const game = () => {
     let pScore = 0;
     let cScore = 0;
@@ -164,7 +165,7 @@ const game = () => {
         document.getElementById("computer-image").src = "assets/images/computer-scissors.png";
 
     }
-}
+};
 
 game();
 
