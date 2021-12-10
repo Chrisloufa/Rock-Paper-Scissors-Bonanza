@@ -11,11 +11,11 @@ Rock, paper, scissors bonanza is a website that contains a simple game of rock, 
 The site is fresh and easy to navigate with simple but to the point information. Mostly users will be able to play a simple game of rock, paper, scissors against the computer and will have a score tally to show who is winning. Icons will be big and easy to use to make it simple for the user to play the game.
 
 ## User Stories
-- As a new user of this website, I want to easily be able to see the purpose of the site and how to navigate it.
-- As a new user of this website, I want to be able to easily see how to play the game.
-- As a new user of this website, I want to playability of the game to be simple a smooth.
-- As a new user of this website, I want to be able to see who is winning between myself and the CPU.
-- As a new user of this website, I want to be able to see the rules of the game.
+1. As a new user of this website, I want to easily be able to see the purpose of the site and how to navigate it.
+2. As a new user of this website, I want to be able to easily see how to play the game.
+3. As a new user of this website, I want to playability of the game to be simple a smooth.
+4. As a new user of this website, I want to be able to see who is winning between myself and the CPU.
+5. As a new user of this website, I want to be able to see the rules of the game.
 
 # Features
 
@@ -113,10 +113,41 @@ The website is clear and fresh and gives the user an obvious focus on what the s
 
 **CSS**
 
-p align="center">
+<p align="center">
 <img src="assets/readmecontent/csstest.png" width="900" height="500">
 
 **Lighthouse tools testing**
+
+<p align="center">
+<img src="assets/readmecontent/lighthousetest.png" width="900" height="500">
+
+# User story testing
+
+1. As a new user of this website, I want to easily be able to see the purpose of the site and how to navigate it.
+
+
+2. As a new user of this website, I want to be able to easily see how to play the game.
+3. As a new user of this website, I want to playability of the game to be simple a smooth.
+4. As a new user of this website, I want to be able to see who is winning between myself and the CPU.
+5. As a new user of this website, I want to be able to see the rules of the game.
+
+# Final Product
+
+## Desktop
+
+<p align="center">
+<img src="assets/readmecontent/finaldesktop.png" width="900" height="500">
+
+## Ipad
+
+<p align="center">
+<img src="assets/readmecontent/finalipad.png" width="900" height="500">
+
+## Iphone
+
+<p align="center">
+<img src="assets/readmecontent/finaliphone.png" width="900" height="500">
+
 
 # Supported screens and browsers
 
