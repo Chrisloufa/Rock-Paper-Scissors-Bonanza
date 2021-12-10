@@ -30,7 +30,7 @@ body {
 }
 
 #user-image {
-    float:left;
+    float: left;
     width: 25%;
     height: 25%;
     padding-top: 3%;
@@ -40,7 +40,7 @@ body {
 
 #user-image:hover {
     transform: scale(1.2);
-  }
+}
 
 #computer-image {
     float: right;
@@ -53,7 +53,8 @@ body {
 
 #computer-image:hover {
     transform: scale(1.2);
-  }
+}
+
 /* --------- Footer */
 
 .footer {
@@ -101,11 +102,11 @@ body {
         padding-top: 30%;
         font-size: small;
     }
-    
+
     .computer {
         text-align: right;
         padding-right: 19%;
         padding-top: 30%;
         font-size: small;
-    }   
+    }
 }
