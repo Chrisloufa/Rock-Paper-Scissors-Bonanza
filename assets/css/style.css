@@ -59,7 +59,7 @@ body {
 .footer {
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     background-color: white;
 }
