@@ -116,6 +116,11 @@ The website is clear and fresh and gives the user an obvious focus on what the s
 <p align="center">
 <img src="assets/readmecontent/csstest.png" width="900" height="500">
 
+**JS**
+
+<p align="center">
+<img src="assets/readmecontent/jstest.png" width="900" height="500">
+
 **Lighthouse tools testing**
 
 <p align="center">
@@ -131,22 +136,22 @@ The website is clear and fresh and gives the user an obvious focus on what the s
 2. As a new user of this website, I want to be able to easily see how to play the game.
 
 <p align="center">
-<img src="assets/readmecontent/rules.png" width="900" height="500">
+<img src="assets/readmecontent/rules.png">
 
 3. As a new user of this website, I want to playability of the game to be simple a smooth.
 
 <p align="center">
-<img src="assets/readmecontent/play.png" width="900" height="500">
+<img src="assets/readmecontent/play.png">
 
 4. As a new user of this website, I want to be able to see who is winning between myself and the CPU.
 
 <p align="center">
-<img src="assets/readmecontent/score.png" width="900" height="500">
+<img src="assets/readmecontent/score.png">
 
 5. As a new user of this website, I want to be able to see the rules of the game.
 
 <p align="center">
-<img src="assets/readmecontent/rules.png" width="900" height="500">
+<img src="assets/readmecontent/rules.png">
 
 # Final Product
 
@@ -158,12 +163,12 @@ The website is clear and fresh and gives the user an obvious focus on what the s
 ## Ipad
 
 <p align="center">
-<img src="assets/readmecontent/finalipad.png" width="900" height="500">
+<img src="assets/readmecontent/finalipad.png" width="600" height="800">
 
 ## Iphone
 
 <p align="center">
-<img src="assets/readmecontent/finaliphone.png" width="900" height="500">
+<img src="assets/readmecontent/finaliphone.png" width="600" height="800">
 
 
 # Supported screens and browsers
