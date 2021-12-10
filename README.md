@@ -125,11 +125,28 @@ The website is clear and fresh and gives the user an obvious focus on what the s
 
 1. As a new user of this website, I want to easily be able to see the purpose of the site and how to navigate it.
 
+<p align="center">
+<img src="assets/readmecontent/finaldesktop.png" width="900" height="500">
 
 2. As a new user of this website, I want to be able to easily see how to play the game.
+
+<p align="center">
+<img src="assets/readmecontent/rules.png" width="900" height="500">
+
 3. As a new user of this website, I want to playability of the game to be simple a smooth.
+
+<p align="center">
+<img src="assets/readmecontent/play.png" width="900" height="500">
+
 4. As a new user of this website, I want to be able to see who is winning between myself and the CPU.
+
+<p align="center">
+<img src="assets/readmecontent/score.png" width="900" height="500">
+
 5. As a new user of this website, I want to be able to see the rules of the game.
+
+<p align="center">
+<img src="assets/readmecontent/rules.png" width="900" height="500">
 
 # Final Product
 
