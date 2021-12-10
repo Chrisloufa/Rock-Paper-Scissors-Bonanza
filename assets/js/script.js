@@ -1,3 +1,7 @@
+const game = () => {
+let pScore = 0;
+let cScore = 0;
+
 document.addEventListener("DOMContentLoaded", function () {
     let allButtons = document.getElementsByTagName("button");
     for (let button of allButtons) {
@@ -10,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+}
 
 function playGame(userAnswer) {
 
