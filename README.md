@@ -109,6 +109,40 @@ The website is clear and fresh and gives the user an obvious focus on what the s
 <p align="center">
 <img src="assets/readmecontent/htmltest.png" width="900" height="500">
 
+- 8 error messages returned and fixes applied.
+
+**CSS**
+
+p align="center">
+<img src="assets/readmecontent/csstest.png" width="900" height="500">
+
+**Lighthouse tools testing**
+
+# Supported screens and browsers
+
+Site has been tested on Chrome, Safari and Firefox desktop version browsers.
+Chrome developers tools was used to test responsiveness on Desktop, Laptop, Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro, Surface Duo.
+
+# Deployment
+
+## GitHub Pages
+1. Log into GitHub and locate the repository.
+2. On the nav bar look for the settings option and click on it.
+3. Scroll towards to the bottom of the page.
+4. Click the yellow "check it out here" link under GitHub pages.
+4. Under 'Source' dropdown, click 'Main' from the options.
+5. Click the save button.
+6. The sitre will then be published. 
+7. The site URL is visible on the green bar under the "Github Pages".
+
+## Gitpod
+
+1. You will need to search for and download the Gitpod browser extension.
+2. Then proceed to login to GitHub.
+3. Find the repository you wish to view.
+3. Click the green "Gitpod" button.
+4. Now you will be taken to a new tab and will be able to view the Gitpod repository.
+
 # Credits
 
 ## Content
